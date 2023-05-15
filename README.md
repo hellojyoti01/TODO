@@ -140,7 +140,7 @@ Start the server
 
 ## Demo
 
-![alt text](./ezgif.com-video-to-mp4.mp4)
+![alt text](./ezgif.com-video-to-mp4.gif)
 
 ## Documentation
 
