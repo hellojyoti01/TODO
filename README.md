@@ -142,7 +142,7 @@ Start the server
 
 ![alt text](./screen-capture.gif)
 
-## Documentation
+## Documentatio
 
 https://scribehow.com/shared/How_to_Sign_Up_and_Create_a_Contact_Form__dUy_XHJxTVKGLhHVCuWtaA
 
