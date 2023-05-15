@@ -37,7 +37,7 @@ const signUp = catcher(async (req, res, next) => {
 });
 
 const signIn = catcher(async (req, res, next) => {
-	const { name, email, password } = req.body;
+	const { email, password } = req.body;
 
 	console.log(email, password, "email--password");
 	//Validation
@@ -45,6 +45,7 @@ const signIn = catcher(async (req, res, next) => {
 
 	//Find user in data base
 	const user = await User.findOne({ email });
+	//If user not exit then chek whoami route malesious activity run useEffect
 	if (!user) return next(new _Error("Created Again", 404));
 
 	//decrypt password and check user

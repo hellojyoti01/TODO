@@ -8,6 +8,7 @@ const addTodo = catcher(async (req, res, next) => {
 
 	const todo = await Todo.create({
 		description,
+		user: req._user._id,
 	});
 
 	res.json({
@@ -53,9 +54,8 @@ const deleteAll = catcher(async (req, res, next) => {
 	});
 });
 const getAllTodo = catcher(async (req, res, next) => {
-	console.log(req.query);
 	const { id } = req.query;
-	const todo = await Todo.find({}).limit(6).skip(id);
+	const todo = await Todo.find({ user: req._user._id }).limit(6).skip(id);
 	res.json({
 		status: true,
 		statusCode: "200ok",
