@@ -142,7 +142,7 @@ Start the server
 
 https://scribehow.com/shared/How_to_Sign_Up_and_Create_a_Contact_Form__dUy_XHJxTVKGLhHVCuWtaA
 
-<iframe src="https://scribehow.com/embed/How_to_Sign_Up_and_Create_a_Contact_Form__dUy_XHJxTVKGLhHVCuWtaA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+![alt text](./ezgif.com-crop.gif)
 
 ## Environment Variables
 
