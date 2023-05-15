@@ -1,0 +1,20 @@
+{
+	"name": "todo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": " yarn install && concurrently \"cd backend && yarn install && yarn dev\" \"cd frontend && yarn install && yarn dev\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@chakra-ui/react": "^2.6.1",
+		"@emotion/react": "^11.11.0",
+		"@emotion/styled": "^11.11.0",
+		"axios": "^1.4.0",
+		"concurrently": "^8.0.1",
+		"framer-motion": "^10.12.10"
+	}
+}

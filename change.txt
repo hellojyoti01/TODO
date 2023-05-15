@@ -1,0 +1,4 @@
+- Validation complete 
+- Pagination Complete 
+- Debouncing Implemented ( when user click 10 time sign up cancel 9 time , send 1 request to server)
+- Complete Todo Fullstack ( backend with Frontend) 
