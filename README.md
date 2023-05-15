@@ -140,9 +140,11 @@ Start the server
 
 ## Demo
 
-https://scribehow.com/shared/How_to_Sign_Up_and_Create_a_Contact_Form__dUy_XHJxTVKGLhHVCuWtaA
-
 ![alt text](./ezgif.com-crop.gif)
+
+## Documentation
+
+https://scribehow.com/shared/How_to_Sign_Up_and_Create_a_Contact_Form__dUy_XHJxTVKGLhHVCuWtaA
 
 ## Environment Variables
 
