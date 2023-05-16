@@ -1,0 +1,132 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #fcc8d1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+
+.wrapper {
+	width: 40%;
+	height: 80%;
+	background-color: #3f979b;
+
+	box-shadow: 3px 2px 64px 55px rgba(0, 0, 0, 0.18);
+	border-radius: 10px;
+}
+
+.add_item {
+	width: 100%;
+	height: 20%;
+
+	background-color: #917fb3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.row {
+	display: flex;
+	height: 40px;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background-color: aqua; */
+}
+.row > .input {
+	width: 140px;
+	height: 36px;
+	background-color: rgb(194, 192, 192);
+	border-radius: 10px;
+
+	border: none;
+	transition: all;
+	transition-timing-function: ease-in-out;
+}
+
+.row > .input:focus {
+	background-color: rgb(241, 238, 238);
+}
+.show_item {
+	width: 100%;
+	height: 80%;
+
+	padding: 20px;
+	display: flex;
+
+	justify-content: center;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #ffabab;
+	border: none;
+	color: rgb(43, 41, 41);
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	width: 110px;
+	height: 40px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.wrapper {
+		width: 70%;
+		height: 80%;
+		background-color: #3f979b;
+
+		box-shadow: 3px 2px 64px 55px rgba(0, 0, 0, 0.18);
+		border-radius: 10px;
+	}
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+	.wrapper {
+		width: 90%;
+		height: 80%;
+		background-color: #3f979b;
+
+		box-shadow: 3px 2px 64px 55px rgba(0, 0, 0, 0.18);
+		border-radius: 10px;
+	}
+}
+@media screen and (min-width: 280px) and (max-width: 390px) {
+	.wrapper {
+		width: 100%;
+		height: 100%;
+	}
+}
